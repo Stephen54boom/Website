@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Shop & Stop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="Images/logo.jpg" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><b><a href="index.html">HOME</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="account.html">ACCOUNT</b></a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="Images/cart.jpg" width="36px" height="35px"></a>
+        <img src="Images/menu.jpg" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+
+<!-- Single Product Details -->
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="Images/product-1.jpg" width="100%" id="ProductImg">
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="Images/jacket4.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="Images/jacket2.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="Images/jacket4.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="Images/jacket1.jpg" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <p>Home / Shoes</p>
+            <h1>Men's Jacket</h1>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <h4>RS 899.00</h4>
+            
+            <select>
+                <option>Select Size</option>
+                <option>32</option>
+                <option>34</option>
+                <option>36</option>
+                <option>38</option>
+                <option>40</option>
+            </select>
+            <input type="number" value="1">
+            <a href="cart.html" class="btn">Add to Cart</a>
+            <h3>Product Details <i class="fa fa-indent"></i></h3>
+            <br>
+            <p>ashdkhsakfhkjahfkh ausf h aush fhahf haiofh oafo aorf v oas chfesd ohsvdh sahofoasfho ofa ohoafo aofsh hoaof aho sfhdsofao afhoh</p>
+        </div>
+    </div>
+</div>
+
+<!-- Title -->
+<div class="small-container">
+</div>
+<!-- Products -->
+<div class="small-container">
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+            <option>Default Shorting</option>
+            <option>Sort by Price</option>
+            <option>Sort by Popularity</option>
+            <option>Sort by Rating</option>
+            <option>Sort by Sale</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="Images/product-1.jpg">
+            <h4>Men's Black Jacket</h4>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 4499.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-2.jpg">
+            <h4>Tommy Hilfiger Belt</h4>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 2999.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-3.jpg">
+            <h4>Men's Sneakers</h4>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 899.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-4.jpg">
+            <h4>Men's Tshirt</h4>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 599.00</p>
+        </div>
+           </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and Ios Mobile Phones</p>
+                <div class="app-logo">
+                    <img src="Images/play-store.jpg">
+                    </div>
+            </div>
+            <div class="footer-col-2">
+                <a href="index.html"><img src="Images/logo.jpg"></a>
+                <p>Create your own style; let it be unique for yourself and yet identifiable for others.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Services</li>
+                    <li>Refund/Exchange Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+    </div>
+</div>
+
+<!-- js for toggle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+<!-- js for product gallery -->
+<script>
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementsByClassName("small-img");
+
+    SmallImg[0].onclick = function () {
+        ProductImg.src = SmallImg[0].src;
+    }
+    SmallImg[1].onclick = function () {
+        ProductImg.src = SmallImg[1].src;
+    }
+    SmallImg[2].onclick = function () {
+        ProductImg.src = SmallImg[2].src;
+    }
+    SmallImg[3].onclick = function () {
+        ProductImg.src = SmallImg[3].src;
+    }
+</script>
+</body>
+</html>

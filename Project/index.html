@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop and Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="Images/logo.jpg" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><b><a href="index.html">HOME</a></li>
+                <li><a href="product.html">PRODUCT</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="account.html">ACCOUNT</b></a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="Images/cart.jpg" width="36px" height="35px"></a>
+        <img src="Images/menu.jpg" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+         <h1>Happiness is not in money,<br> But in shopping.</h1>
+         <p style="color:aliceblue">I love shopping for things online, because when <br>they arrive, it’s like a present to me… from me.</p>
+        <a href="product.html" class="btn">&#10021 Explore Now &#10021</a>
+        </div> 
+        <div class="col-2">
+         <img src="Images/coverpage.jpg">
+        </div> 
+     </div> 
+</div>
+</div>
+
+<!------ featured categories ------->
+<div class="categories"> 
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3">
+            <img src="Images/product-3.jpg">
+        </div>
+        <div class="col-3">
+            <img src="Images/category-2.jpg">
+        </div>
+        <div class="col-3">
+            <img src="Images/category-3.jpg">
+        </div>
+    </div>
+</div>
+</div>
+
+<!------ featured products ------->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="product-details.html"><img src="Images/category-1.jpg"></a>
+            <a href="product-details.html"><h4>Nike Air Jordan</h4></a>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 7999.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-details1.html"><img src="Images/product-2.jpg"></a>
+            <a href="product-details1.html"><h4>Tommy Hilfiger Belt</h4></a>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-half-o'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 2999.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-details2.html"><img src="Images/product-1.jpg"></a>
+            <a href="product-details2.html"><h4>Men's Jacket</h4></a>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-o'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 899.00</p>
+        </div>
+        <div class="col-4">
+            <a href="product-details3.html"><img src="Images/product-4.jpg"></a>
+            <a href="product-details3.html"><h4>Tommy Hilfiger Belt</h4></a>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-half-o'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 599.00</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="Images/product-5.jpg">
+            <h4>Roadster Sneakers</h4>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-half-o'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 799.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-6.jpg">
+            <h4>Meght Watch</h4>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-half-o'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 1999.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-7.jpg">
+            <h4>Harvard White Tshirt</h4>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-half-o'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 899.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-8.jpg">
+            <h4>Men's Premium Shirt</h4>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 999.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="Images/product-9.jpg">
+            <h4>Mem's Daily use Socks</h4>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-half-o'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 199.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-10.jpg">
+            <h4>Pure Leather Wallet</h4>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-half-o'></i>
+                <i class='fa fa-star-o'></i>
+            </div>
+            <p>Rs 999.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-11.jpg">
+            <h4>Men's Grooming Kit</h4>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-half-o'></i>
+            </div>
+            <p>Rs 1899.00</p>
+        </div>
+        <div class="col-4">
+            <img src="Images/product-12.jpg">
+            <h4>Men's Shirt (Pack of 3)</h4>
+            <div class="rating">
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star'></i>
+                <i class='fa fa-star-half-o'></i>
+            </div>
+            <p>Rs 1599.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- Offers -->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="Images/exclusive.jpg" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Exclusive Offer: Buy Apple Watch Ultra and get an extra 10% discount.</p>
+                <h1 style="color:brown">APPLE Watch Ultra</h1>
+                <small>Rugged and capable, built to meet the demands of endurance athletes, outdoor adventurers and water sports enthusiasts - with a specialised strap for each. Up to 36 hours of battery life, plus all the Apple Watch features (ECG App, Temp sensor, Blood oxygen, Fall Detection) that help you stay healthy, safe and connected.</small><br>
+                <a href="" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Brands -->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="Images/brands-1.jpg">
+            </div>
+            <div class="col-5">
+                <img src="Images/brands-2.jpg">
+            </div>
+            <div class="col-5">
+                <img src="Images/brands-3.jpg">
+            </div>
+            <div class="col-5">
+                <img src="Images/brands-4.jpg">
+            </div>
+            <div class="col-5">
+                <img src="Images/brands-5.jpg">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and Ios Mobile Phones</p>
+                <div class="app-logo">
+                    <img src="Images/play-store.jpg">
+                    </div>
+            </div>
+            <div class="footer-col-2">
+                <a href="index.html"><img src="Images/logo.jpg"></a>
+                <p>Create your own style; let it be unique for yourself and yet identifiable for others.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Services</li>
+                    <li>Refund/Exchange Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+    </div>
+</div>
+
+<!-- js for toggle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems")
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px"){
+            MenuItems.style.maxHeight = "200px";
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
